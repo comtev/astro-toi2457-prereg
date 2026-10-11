@@ -10,7 +10,13 @@ TESS observes the star again in Sectors 109 (5 to 31 October 2026) and 110 (31 O
 
 The prediction was generated at 02:44 UTC on 11 October 2026 and committed at 02:45:58 UTC (commit 963e1a1 of the analysis code). The pre-registration text was then revised twice the same day, at 09:08:59 UTC (commit c6476de, wording) and at 10:26:06 UTC (commit c7227f3, verdict names, run date and a full test specification), each time changing that one file only; the prediction, the JSON file and the pass and fail criteria did not change, and the text ends with a list of the revisions. Sector 109 observations had started on 5 October 2026, so the first transits had already happened on board, but no Sector 109 or 110 data for this star had been released; `docs/preregistration/mast_inventory_2026-10-11.json` records what MAST returned for the star at 10:28:30 UTC on 11 October 2026.
 
-The commit times above come from a private repository and can only be taken on trust. The independent public timestamps are the first push of this repository to GitHub and the Zenodo record made from its first release, both on 11 October 2026.
+The commit times above come from a private repository and can only be taken on trust. The independent public timestamps are the first push of this repository to GitHub and the Zenodo record made from its first release (version 1.0.0, [doi:10.5281/zenodo.23297281](https://doi.org/10.5281/zenodo.23297281), created at 11:12:42 UTC), both on 11 October 2026.
+
+## How to cite
+
+Comte, V. 2026, Pre-registered test of a 3.29-day transit signal around TOI-2457 (TIC 117799904) in TESS Sectors 109 and 110, version 1.0.0, Zenodo, [doi:10.5281/zenodo.23297281](https://doi.org/10.5281/zenodo.23297281)
+
+That DOI identifies version 1.0.0, the pre-registration as frozen. The concept DOI [10.5281/zenodo.23297280](https://doi.org/10.5281/zenodo.23297280) stands for all versions of the record and resolves to the latest one, which will include the result once it is added.
 
 ## Contents
 
