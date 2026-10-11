@@ -1,0 +1,8 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The documents and data in this repository (README.md, docs/, CODE_MANIFEST.txt, SHA256SUMS,
+.zenodo.json) are licensed under CC BY 4.0.
+Licence summary and legal code: https://creativecommons.org/licenses/by/4.0/
+
+The code (scripts/, src/, config/, pyproject.toml, uv.lock) is licensed under the GNU General
+Public License, version 3; see LICENSE-CODE.

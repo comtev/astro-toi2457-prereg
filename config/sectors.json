@@ -1,0 +1,8 @@
+{
+  "excluded": [99, 100, 101, 102, 103, 104],
+  "excluded_reason": "QLP barycentric timestamp error, Orbit 210 (second half of S99) to Orbit 220 (end of S104); MAST marks these sectors as not yet redelivered (https://archive.stsci.edu/hlsp/qlp, read 2026-10-10). Re-check and remove from this list once redelivered.",
+  "v02_sectors": [74, 75, 76, 77, 78, 79],
+  "v02_reason": "QLP re-uploaded these sectors as v02 after a 2024 ephemeris reference-plane error (same source).",
+  "tglc_from_sector": 94,
+  "tglc_reason": "QLP photometry switched to TGLC methodology from Sector 94 (Petitpas et al. 2026, arXiv:2603.22236). Depths are compared within each photometry version."
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Pre-registered test of a 3.29-day transit signal around TOI-2457 (TIC 117799904) in TESS Sectors 109 and 110",
+  "upload_type": "other",
+  "description": "<p>Pre-registration of a test of a possible additional transit signal around TOI-2457 (TIC 117799904), written before the TESS data that will test it were public, with the code that will run the test. The signal has a period of 3.2911037 days, a depth of about 480 ppm and a duration of about 1.9 hours. It was found blind by an amateur multi-sector search of TESS light curves (QLP, Sectors 32 and 98); a separate blind search of the SPOC 2-minute light curves of Sectors 32, 98 and 106 also recovers it, and Sector 106 shows it at roughly 3 to 4 sigma at the times and depth predicted from Sectors 32 and 98. It is still weak and has not been confirmed, and it has not been shown to come from a planet or from TOI-2457 itself.</p><p>The record fixes, before release of any TESS Sector 109 or 110 data for this star, the predicted times of 16 transits (1-sigma uncertainty about 2.3 minutes), the expected depth (485 +/- 65 ppm), the rules that decide whether the new data pass the test, fail it or are inconclusive, and a full specification of the test. It includes the parts of the analysis code the test uses, with a pinned environment that reproduces the frozen Sector 106 dry run exactly, a SHA-256 manifest of the full (private) analysis code, and a record of what MAST held for the star at the time. A pass would be evidence that the signal persists, not validation of a planet. The result will be added as a new version of this record, whatever it turns out to be.</p><p>Documents and data: CC BY 4.0. Code: GNU GPL version 3 (see LICENSE-CODE).</p><p>The analysis was carried out with the help of Claude, an AI model made by Anthropic; the author checked the results and is responsible for them.</p>",
+  "creators": [
+    {
+      "name": "Comte, Valentin",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "keywords": [
+    "TESS",
+    "exoplanets",
+    "transit photometry",
+    "pre-registration",
+    "TOI-2457",
+    "TIC 117799904"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0"
+}

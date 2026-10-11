@@ -1,0 +1,255 @@
+{
+ "queried_utc": "2026-10-11T10:28:30+00:00",
+ "target": {
+  "tic": 117799904,
+  "ra_deg": 70.16725,
+  "dec_deg": -12.89081
+ },
+ "queries": {
+  "by_target_name": "Observations.query_criteria(target_name='117799904')",
+  "by_position": "Observations.query_region('70.16725 -12.89081', radius='0.01 deg') filtered to obs_collection TESS or HLSP",
+  "tesscut": "Tesscut.get_sectors(objectname='TIC 117799904')"
+ },
+ "by_target_name": [
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "QLP",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "hlsp_qlp_tess_ffi_s0032-0000000117799904_tess_v01_llc",
+   "t_min_utc": "2020-11-20T17:32:05.464",
+   "t_max_utc": "2020-12-16T17:31:44.454",
+   "t_obs_release_utc": "2021-12-17T20:29:32.989",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "QLP",
+   "target_name": "117799904",
+   "sequence_number": "98",
+   "obs_id": "hlsp_qlp_tess_ffi_s0098-0000000117799904_tess_v01_llc",
+   "t_min_utc": "2025-11-08T23:58:30.573",
+   "t_max_utc": "2026-01-05T09:37:22.108",
+   "t_obs_release_utc": "2026-01-29T14:20:15.989",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "117799904",
+   "sequence_number": "106",
+   "obs_id": "tess2026192185000-s0106-0000000117799904-0308-s",
+   "t_min_utc": "2026-07-11T22:14:01.779",
+   "t_max_utc": "2026-08-09T08:56:44.785",
+   "t_obs_release_utc": "2026-09-10T00:00:00.000",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "tess2020324010417-s0032-0000000117799904-0200-s",
+   "t_min_utc": "2020-11-20T17:25:54.364",
+   "t_max_utc": "2020-12-16T17:29:33.343",
+   "t_obs_release_utc": "2021-01-25T00:00:00.000",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "117799904",
+   "sequence_number": "98",
+   "obs_id": "tess2025312202959-s0098-0000000117799904-0298-s",
+   "t_min_utc": "2025-11-09T00:05:39.488",
+   "t_max_utc": "2026-01-05T09:38:30.981",
+   "t_obs_release_utc": "2026-02-06T00:00:00.000",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "TARS",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "hlsp_tars_tess_ffi_s0032-0000000117799904_tess",
+   "t_min_utc": "2020-11-20T17:52:01.977",
+   "t_max_utc": "2020-12-16T17:31:32.462",
+   "t_obs_release_utc": "2026-06-11T23:47:15.989",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "TESS-SPOC",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "hlsp_tess-spoc_tess_phot_0000000117799904-s0032_tess_v1_tp",
+   "t_min_utc": "2020-11-20T17:25:54.364",
+   "t_max_utc": "2020-12-16T17:35:33.332",
+   "t_obs_release_utc": "2021-04-06T16:09:05.994",
+   "dataproduct_type": "timeseries"
+  }
+ ],
+ "by_position": [
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "QLP",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "hlsp_qlp_tess_ffi_s0032-0000000117799904_tess_v01_llc",
+   "t_min_utc": "2020-11-20T17:32:05.464",
+   "t_max_utc": "2020-12-16T17:31:44.454",
+   "t_obs_release_utc": "2021-12-17T20:29:32.989",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "QLP",
+   "target_name": "117799904",
+   "sequence_number": "98",
+   "obs_id": "hlsp_qlp_tess_ffi_s0098-0000000117799904_tess_v01_llc",
+   "t_min_utc": "2025-11-08T23:58:30.573",
+   "t_max_utc": "2026-01-05T09:37:22.108",
+   "t_obs_release_utc": "2026-01-29T14:20:15.989",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "TESS FFI",
+   "sequence_number": "106",
+   "obs_id": "tess-s0106-4-4",
+   "t_min_utc": "2026-07-11T22:08:00.239",
+   "t_max_utc": "2026-08-09T08:57:20.422",
+   "t_obs_release_utc": "2026-08-12T00:00:00.000",
+   "dataproduct_type": "image"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "117799904",
+   "sequence_number": "106",
+   "obs_id": "tess2026192185000-s0106-0000000117799904-0308-s",
+   "t_min_utc": "2026-07-11T22:14:01.779",
+   "t_max_utc": "2026-08-09T08:56:44.785",
+   "t_obs_release_utc": "2026-09-10T00:00:00.000",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "TESS FFI",
+   "sequence_number": "32",
+   "obs_id": "tess-s0032-2-4",
+   "t_min_utc": "2020-11-20T17:25:52.792",
+   "t_max_utc": "2020-12-16T17:35:23.268",
+   "t_obs_release_utc": "2021-01-25T00:00:00.000",
+   "dataproduct_type": "image"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "tess2020324010417-s0032-0000000117799904-0200-s",
+   "t_min_utc": "2020-11-20T17:25:54.364",
+   "t_max_utc": "2020-12-16T17:29:33.343",
+   "t_obs_release_utc": "2021-01-25T00:00:00.000",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "TESS FFI",
+   "sequence_number": "5",
+   "obs_id": "tess-s0005-2-3",
+   "t_min_utc": "2018-11-15T11:35:56.946",
+   "t_max_utc": "2018-12-11T18:36:18.183",
+   "t_obs_release_utc": "2019-01-31T15:59:59.994",
+   "dataproduct_type": "image"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "TESS FFI",
+   "sequence_number": "98",
+   "obs_id": "tess-s0098-2-4",
+   "t_min_utc": "2025-11-08T23:55:32.089",
+   "t_max_utc": "2026-01-05T09:37:55.211",
+   "t_obs_release_utc": "2026-01-12T00:00:00.000",
+   "dataproduct_type": "image"
+  },
+  {
+   "obs_collection": "TESS",
+   "provenance_name": "SPOC",
+   "target_name": "117799904",
+   "sequence_number": "98",
+   "obs_id": "tess2025312202959-s0098-0000000117799904-0298-s",
+   "t_min_utc": "2025-11-09T00:05:39.488",
+   "t_max_utc": "2026-01-05T09:38:30.981",
+   "t_obs_release_utc": "2026-02-06T00:00:00.000",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "TARS",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "hlsp_tars_tess_ffi_s0032-0000000117799904_tess",
+   "t_min_utc": "2020-11-20T17:52:01.977",
+   "t_max_utc": "2020-12-16T17:31:32.462",
+   "t_obs_release_utc": "2026-06-11T23:47:15.989",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "TESS-SPOC",
+   "target_name": "117799904",
+   "sequence_number": "32",
+   "obs_id": "hlsp_tess-spoc_tess_phot_0000000117799904-s0032_tess_v1_tp",
+   "t_min_utc": "2020-11-20T17:25:54.364",
+   "t_max_utc": "2020-12-16T17:35:33.332",
+   "t_obs_release_utc": "2021-04-06T16:09:05.994",
+   "dataproduct_type": "timeseries"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "TICA",
+   "target_name": "TICA FFI",
+   "sequence_number": "106",
+   "obs_id": "hlsp_tica_s0106-cam4-ccd4",
+   "t_min_utc": "2026-07-11T22:13:40.213",
+   "t_max_utc": "2026-07-30T17:46:59.430",
+   "t_obs_release_utc": "2026-08-14T00:00:00.000",
+   "dataproduct_type": "image"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "TICA",
+   "target_name": "TICA FFI",
+   "sequence_number": "32",
+   "obs_id": "hlsp_tica_s0032-cam2-ccd4",
+   "t_min_utc": "2020-11-20T17:20:22.009",
+   "t_max_utc": "2020-12-16T17:30:21.012",
+   "t_obs_release_utc": "2021-04-09T00:00:00.000",
+   "dataproduct_type": "image"
+  },
+  {
+   "obs_collection": "HLSP",
+   "provenance_name": "TICA",
+   "target_name": "TICA FFI",
+   "sequence_number": "98",
+   "obs_id": "hlsp_tica_s0098-cam2-ccd4",
+   "t_min_utc": "2025-11-08T23:50:30.784",
+   "t_max_utc": "2026-01-05T09:33:48.472",
+   "t_obs_release_utc": "2026-01-07T00:00:00.000",
+   "dataproduct_type": "image"
+  }
+ ],
+ "tesscut_sectors": [
+  5,
+  32,
+  98,
+  106
+ ],
+ "any_sector_109_or_110": false
+}

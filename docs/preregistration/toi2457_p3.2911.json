@@ -1,0 +1,377 @@
+{
+ "tic": 117799904,
+ "created_utc": "2026-10-11T02:44:04.535195+00:00",
+ "git_commit": "bba21cc1533091110c7d0ef936330e56ab4363f5",
+ "inputs": {
+  "qlp_sectors": [
+   32,
+   98
+  ],
+  "spoc_sectors": [
+   32,
+   98,
+   106
+  ],
+  "spoc_files": [
+   "tess2020324010417-s0032-0000000117799904-0200-s_lc.fits",
+   "tess2025312202959-s0098-0000000117799904-0298-s_lc.fits",
+   "tess2026192185000-s0106-0000000117799904-0308-s_lc.fits"
+  ],
+  "masked_signals_d": [
+   14.193404171976525
+  ],
+  "dropped_signals": [
+   {
+    "period": 6.610562614822049,
+    "t0": 2180.5850137493726,
+    "duration": 0.07080499999999999
+   }
+  ],
+  "drop_reason": "QLP search signal at 6.6106 d (failed LEO fit) is not confirmed by SPOC: 190 +- 93 ppm with 3.29 d transits excluded, per-sector +425/+150/-142 ppm; it lies near 2 x 3.2911 d and overlapped alternate 3.29 d transits, so masking it would only discard candidate transits",
+  "detrend_masks": [
+   {
+    "period": 14.193404171976525,
+    "t0": 2175.258623332706,
+    "duration": 0.1062075,
+    "is_candidate": false
+   },
+   {
+    "period": 3.2911056763353974,
+    "t0": 2176.238231332706,
+    "duration": 0.0812175,
+    "is_candidate": true
+   }
+  ]
+ },
+ "template": {
+  "transit_per": 3.2911029475501206,
+  "transit_epo": 2176.238418806228,
+  "transit_RpRs": 0.01893936519623457,
+  "transit_aRs": 13.155075373259521,
+  "transit_b": 0.09999999999999998,
+  "transit_u1": 0.409,
+  "transit_u2": 0.2526,
+  "transit_dur": 0.08083297115513406
+ },
+ "alias_chi2_note": "chi2 = model minus flat line on the same cadences (more negative is better)",
+ "group_fits": {
+  "first": {
+   "per": 3.294308346027087,
+   "tp": 2189.409566677358,
+   "edge": false
+  },
+  "rest": {
+   "per": 3.2910693282927523,
+   "tp": 4029.1293782769458,
+   "edge": false
+  }
+ },
+ "aliases": [
+  {
+   "k": -3,
+   "period": 3.3088678541605803,
+   "tp": 4012.6255518524554,
+   "grid_edge": true,
+   "chi2": 13.539437704934244,
+   "chi2_by_sector": {
+    "32": -16.96514779763902,
+    "98": 24.08120827196626,
+    "106": 12.008171543811557
+   },
+   "dchi2_vs_best": 88.84199378707876
+  },
+  {
+   "k": -2,
+   "period": 3.302910237767165,
+   "tp": 4012.635046020636,
+   "grid_edge": false,
+   "chi2": -9.169389720804475,
+   "chi2_by_sector": {
+    "32": -21.110479766201536,
+    "98": 8.156235472564049,
+    "106": 3.8727440208030544
+   },
+   "dchi2_vs_best": 66.13316636134005
+  },
+  {
+   "k": -1,
+   "period": 3.29702087842682,
+   "tp": 4015.959610056749,
+   "grid_edge": false,
+   "chi2": -32.820542701437034,
+   "chi2_by_sector": {
+    "32": -32.46512365117616,
+    "98": -15.722377215235042,
+    "106": 16.72952568152465
+   },
+   "dchi2_vs_best": 42.482013380707485
+  },
+  {
+   "k": 0,
+   "period": 3.2911036641950875,
+   "tp": 4015.965014687682,
+   "grid_edge": false,
+   "chi2": -75.30255608214452,
+   "chi2_by_sector": {
+    "32": -33.35685689855637,
+    "98": -24.47815443741206,
+    "106": -17.001726857991798
+   },
+   "dchi2_vs_best": 0.0
+  },
+  {
+   "k": 1,
+   "period": 3.2851969536080716,
+   "tp": 4015.983807223155,
+   "grid_edge": false,
+   "chi2": -24.105862264347707,
+   "chi2_by_sector": {
+    "32": -24.515831934749144,
+    "98": -1.5422707239024476,
+    "106": 4.84559967729831
+   },
+   "dchi2_vs_best": 51.19669381779681
+  },
+  {
+   "k": 2,
+   "period": 3.279370679649469,
+   "tp": 4016.0355227484374,
+   "grid_edge": false,
+   "chi2": -7.323819300171181,
+   "chi2_by_sector": {
+    "32": -22.728920318396263,
+    "98": 11.561257262472282,
+    "106": 6.074903281386582
+   },
+   "dchi2_vs_best": 67.97873678197334
+  },
+  {
+   "k": 3,
+   "period": 3.2734020832836914,
+   "tp": 4015.995544213699,
+   "grid_edge": false,
+   "chi2": 2.8643391160940155,
+   "chi2_by_sector": {
+    "32": -18.146704688759314,
+    "98": 10.44723851861363,
+    "106": 11.511944024427862
+   },
+   "dchi2_vs_best": 78.16689519823854
+  }
+ ],
+ "best_alias_k": 0,
+ "ephemeris": {
+  "period_d": 3.2911036641950875,
+  "t_mid_btjd": 4015.965014687682,
+  "grid_edge": false,
+  "n_region_points": 8,
+  "period_range_d": [
+   3.2911015363818894,
+   3.291105792008285
+  ],
+  "t_mid_range_btjd": [
+   4015.963667471496,
+   4015.965688295775
+  ]
+ },
+ "prior_depth_ppm": 484.7624570971103,
+ "prior_depth_err_ppm": 64.6571006111778,
+ "prior_depth_white_err_ppm": 51.113517517441586,
+ "prior_depth_empirical_err_ppm": 64.6571006111778,
+ "orbit_windows_btjd": [
+  [
+   109,
+   229,
+   4318.5633007407405,
+   4325.462606296244
+  ],
+  [
+   109,
+   229,
+   4325.670939629733,
+   4331.702189629733
+  ],
+  [
+   109,
+   230,
+   4331.910522962756,
+   4338.747328518725
+  ],
+  [
+   109,
+   230,
+   4338.955661851748,
+   4345.288995185237
+  ],
+  [
+   110,
+   231,
+   4345.497328518725,
+   4351.400106296244
+  ],
+  [
+   110,
+   231,
+   4351.608439629733,
+   4358.330661851748
+  ],
+  [
+   110,
+   232,
+   4358.538995185237,
+   4364.365384074229
+  ],
+  [
+   110,
+   232,
+   4364.573717407252,
+   4370.677884074229
+  ]
+ ],
+ "predicted_transits": [
+  {
+   "sector": 109,
+   "orbit": 229,
+   "cycle_from_tp": 92,
+   "t_mid_btjd": 4318.74655179363,
+   "sigma_min": 2.241949303112883,
+   "alias_k-1_offset_min": 776.1298728766269,
+   "alias_k+1_offset_min": -755.459767486027
+  },
+  {
+   "sector": 109,
+   "orbit": 229,
+   "cycle_from_tp": 93,
+   "t_mid_btjd": 4322.037655457825,
+   "sigma_min": 2.245443031895317,
+   "alias_k-1_offset_min": 784.6506613705424,
+   "alias_k+1_offset_min": -763.9654307322053
+  },
+  {
+   "sector": 109,
+   "orbit": 229,
+   "cycle_from_tp": 94,
+   "t_mid_btjd": 4325.3287591220205,
+   "sigma_min": 2.2489410356427357,
+   "alias_k-1_offset_min": 793.1714498631482,
+   "alias_k+1_offset_min": -772.4710939770739
+  },
+  {
+   "sector": 109,
+   "orbit": 229,
+   "cycle_from_tp": 95,
+   "t_mid_btjd": 4328.619862786215,
+   "sigma_min": 2.252443302711109,
+   "alias_k-1_offset_min": 801.6922383583733,
+   "alias_k+1_offset_min": -780.9767572219425
+  },
+  {
+   "sector": 109,
+   "orbit": 230,
+   "cycle_from_tp": 96,
+   "t_mid_btjd": 4331.91096645041,
+   "sigma_min": 2.255949821386638,
+   "alias_k-1_offset_min": 810.2130268509791,
+   "alias_k+1_offset_min": -789.4824204681208
+  },
+  {
+   "sector": 109,
+   "orbit": 230,
+   "cycle_from_tp": 97,
+   "t_mid_btjd": 4335.202070114606,
+   "sigma_min": 2.2594605818514935,
+   "alias_k-1_offset_min": 818.7338153448945,
+   "alias_k+1_offset_min": -797.9880837129895
+  },
+  {
+   "sector": 109,
+   "orbit": 230,
+   "cycle_from_tp": 98,
+   "t_mid_btjd": 4338.493173778801,
+   "sigma_min": 2.262975572256029,
+   "alias_k-1_offset_min": 827.2546038375003,
+   "alias_k+1_offset_min": -806.4937469591678
+  },
+  {
+   "sector": 109,
+   "orbit": 230,
+   "cycle_from_tp": 99,
+   "t_mid_btjd": 4341.7842774429955,
+   "sigma_min": 2.2664947806845186,
+   "alias_k-1_offset_min": 835.7753923327255,
+   "alias_k+1_offset_min": -814.9994102040364
+  },
+  {
+   "sector": 109,
+   "orbit": 230,
+   "cycle_from_tp": 100,
+   "t_mid_btjd": 4345.075381107191,
+   "sigma_min": 2.2700181971208915,
+   "alias_k-1_offset_min": 844.2961808266409,
+   "alias_k+1_offset_min": -823.505073448905
+  },
+  {
+   "sector": 110,
+   "orbit": 231,
+   "cycle_from_tp": 101,
+   "t_mid_btjd": 4348.366484771386,
+   "sigma_min": 2.2735458095209453,
+   "alias_k-1_offset_min": 852.8169693192467,
+   "alias_k+1_offset_min": -832.0107366950833
+  },
+  {
+   "sector": 110,
+   "orbit": 231,
+   "cycle_from_tp": 102,
+   "t_mid_btjd": 4351.657588435581,
+   "sigma_min": 2.2770776057780777,
+   "alias_k-1_offset_min": 861.3377578144718,
+   "alias_k+1_offset_min": -840.516399939952
+  },
+  {
+   "sector": 110,
+   "orbit": 231,
+   "cycle_from_tp": 103,
+   "t_mid_btjd": 4354.948692099776,
+   "sigma_min": 2.2806135756890207,
+   "alias_k-1_offset_min": 869.8585463070776,
+   "alias_k+1_offset_min": -849.0220631848206
+  },
+  {
+   "sector": 110,
+   "orbit": 231,
+   "cycle_from_tp": 104,
+   "t_mid_btjd": 4358.239795763971,
+   "sigma_min": 2.2841537070260456,
+   "alias_k-1_offset_min": 878.3793348009931,
+   "alias_k+1_offset_min": -857.5277264309989
+  },
+  {
+   "sector": 110,
+   "orbit": 232,
+   "cycle_from_tp": 105,
+   "t_mid_btjd": 4361.530899428166,
+   "sigma_min": 2.287697987502695,
+   "alias_k-1_offset_min": 886.9001232949086,
+   "alias_k+1_offset_min": -866.0333896745578
+  },
+  {
+   "sector": 110,
+   "orbit": 232,
+   "cycle_from_tp": 106,
+   "t_mid_btjd": 4364.822003092361,
+   "sigma_min": 2.2912464067395035,
+   "alias_k-1_offset_min": 895.420911788824,
+   "alias_k+1_offset_min": -874.5390529207361
+  },
+  {
+   "sector": 110,
+   "orbit": 232,
+   "cycle_from_tp": 107,
+   "t_mid_btjd": 4368.113106756557,
+   "sigma_min": 2.2947989523362042,
+   "alias_k-1_offset_min": 903.9417002814298,
+   "alias_k+1_offset_min": -883.0447161669144
+  }
+ ]
+}

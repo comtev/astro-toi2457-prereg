@@ -1,0 +1,42 @@
+{
+ "prereg": "docs/preregistration/toi2457_p3.2911.json",
+ "sectors": [
+  106
+ ],
+ "data_source": "SPOC 2-min PDCSAP",
+ "dry_run": true,
+ "sectors_with_data": [
+  106
+ ],
+ "cadence_min": 10.000660294754198,
+ "n_transits_counted": 6,
+ "transits_counted_btjd": [
+  4236.469,
+  4239.7601,
+  4243.0512,
+  4246.3423,
+  4256.2156,
+  4259.5067
+ ],
+ "depth_ppm": 447.35387889411214,
+ "err_ppm": 103.37313110477507,
+ "white_err_ppm": 103.37313110477507,
+ "empirical_err_ppm": 92.36675065001663,
+ "snr": 4.327564369126938,
+ "T1_pass": true,
+ "depth_z_vs_prior": 0.3068076462174397,
+ "T2_pass": true,
+ "alias_chi2_improvement": {
+  "-1": 16.72952568152465,
+  "0": -17.001726857991798,
+  "1": 4.84559967729831
+ },
+ "T3_pass": true,
+ "timing_offset_min": -3.8799826154464325,
+ "timing_offset_range_min": [
+  -5.819973923169654,
+  0.0
+ ],
+ "verdict": "INCONCLUSIVE (dry run: sectors already in the prior; not a test)",
+ "why": "only 6 predicted transits covered (< 8)"
+}
